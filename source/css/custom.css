@@ -1,0 +1,24 @@
+/* 正文：中文/英文通吃的无衬线字体 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+                 "Noto Sans SC", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    line-height: 1.75;
+    letter-spacing: .02em;
+    color: #2c3e50;
+  }
+  
+
+/* 标题 & 副标题：书卷气风格 */
+h1, h2, h3, .index .banner .subtitle, .page .banner .subtitle {
+    font-family: "Georgia", "Times New Roman", "Songti SC", "Noto Serif SC", serif;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    text-shadow: none; /* 依然去掉阴影 */
+  }
+  
+  /* 代码块：等宽字体 */
+  code, pre, kbd, samp {
+    font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "JetBrains Mono", monospace;
+    font-size: 0.9em;
+    line-height: 1.6;
+  }

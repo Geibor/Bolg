@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Hexo generated
+public/
+.deploy_git/
+
+# Hexo cache and db
+db.json
+*.log
+
+# Temp
+temp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env (if you add .env later)
+.env
+.env.local
